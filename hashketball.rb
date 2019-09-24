@@ -258,6 +258,7 @@ end
   
 def long_name_steals_a_ton?
   steals = []
+  
   game_hash.each do |location,team_data|
     team_data[:players].each do |player_hash|
       steals.push(player_hash[:steals])
