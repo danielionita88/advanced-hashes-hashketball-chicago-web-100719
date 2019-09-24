@@ -256,7 +256,10 @@ def player_with_longest_name
   longest_name= player_names.sort_by{|name| name.length}.reverse[0]
 end
   
+def long_name_steals_a_ton?
+  long_name = player_with_longest_name
   
+end
   
   
   
